@@ -1,0 +1,22 @@
+{
+  "name": "Legacy Payroll Agent",
+  "description": "Legacy agent running deprecated protocol version",
+  "version": "0.9.1",
+  "protocol_version": "0.5.0",
+  "agent_id": "agent-payroll-legacy",
+  "skills": [
+    {
+      "id": "financial_audit",
+      "name": "Payroll Check",
+      "input_modes": ["text/plain"],
+      "output_modes": ["text/plain"]
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "push_notifications": false,
+    "state_recovery": false
+  },
+  "certification_id": "PHIL-CERT-2023-EXPIRED"
+}
+

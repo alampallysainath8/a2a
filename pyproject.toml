@@ -1,0 +1,25 @@
+[project]
+name = "phil-governance"
+version = "0.1.0"
+description = "PHIL AI Governance Platform - Sprint 3 Handshake and Lifecycle Contracts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10.0",
+    "httpx>=0.28.0",
+    "packaging>=24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

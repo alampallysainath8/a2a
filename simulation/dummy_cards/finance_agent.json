@@ -1,0 +1,35 @@
+{
+  "name": "Corporate Finance Ledger Agent",
+  "description": "Certified enterprise domain agent for ledger auditing and variance analysis",
+  "version": "2.1.0",
+  "protocol_version": "1.0.0",
+  "agent_id": "agent-finance-corp-01",
+  "skills": [
+    {
+      "id": "financial_audit",
+      "name": "Financial Audit & Verification",
+      "description": "Performs deep-dive auditing of transaction logs and compliance ledgers",
+      "input_modes": ["text/plain", "application/json"],
+      "output_modes": ["text/plain", "application/json"],
+      "tags": ["finance", "audit", "compliance"],
+      "examples": ["Audit journal entries for fiscal year 2026"]
+    }
+  ],
+  "capabilities": {
+    "streaming": true,
+    "push_notifications": false,
+    "state_recovery": true
+  },
+  "supported_interfaces": [
+    {
+      "protocol": "http",
+      "url": "https://agents.internal/finance/tasks"
+    }
+  ],
+  "certification_id": "PHIL-CERT-2026-9921",
+  "metadata": {
+    "compliance_tier": "Tier-1-Enterprise",
+    "owner": "Finance AI Working Group"
+  }
+}
+

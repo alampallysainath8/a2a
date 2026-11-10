@@ -1,0 +1,22 @@
+{
+  "name": "Creative Image Synthesizer Agent",
+  "description": "Domain agent specialized only in multimedia image processing",
+  "version": "1.0.0",
+  "protocol_version": "1.0.0",
+  "agent_id": "agent-creative-01",
+  "skills": [
+    {
+      "id": "generate_marketing_graphic",
+      "name": "Marketing Graphic Generation",
+      "input_modes": ["text/plain"],
+      "output_modes": ["image/png", "image/jpeg"]
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "push_notifications": false,
+    "state_recovery": false
+  },
+  "certification_id": "PHIL-CERT-2026-MEDIA"
+}
+
